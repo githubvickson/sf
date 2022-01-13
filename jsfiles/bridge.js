@@ -14,10 +14,10 @@ function call_move(from, to) {
     stockfish.postMessage({eventType: "call_move", eventData : [from, to]});
 }
 function castle_move(castleSide) {
-    stockfish.postMessage({eventType: "castle_move", eventData : castleSide});
+    stockfish.postMessage({eventType: "castle_move", eventData : [castleSide]});
 }
 function enpassant_move(from) {
-    stockfish.postMessage({eventType: "enpassant_move", eventData : from});
+    stockfish.postMessage({eventType: "enpassant_move", eventData : [from]});
 }
 function promotion_move(from, to, promoType) {
     stockfish.postMessage({eventType: "promotion_move", eventData : [from, to, promoType]});
