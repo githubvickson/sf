@@ -1,12 +1,12 @@
 {
     "name": "com.freedomdeveloper.chessstockfishai",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "displayName": "Multiplatform ChessStockfish AI",
     "description": "",
     "unity": "2019.4",
     "author": {
         "name": "Freedom Developer",
         "email": "freedom_developer@icloud.com",
-        "url": "moneyforskin.com"
+        "url": "https://moneyforskin.com"
     }
 }
